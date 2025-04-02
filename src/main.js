@@ -1,6 +1,6 @@
-import './style.css';
 
 import * as THREE from 'three';
+import './style.css';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
@@ -10,13 +10,13 @@ const canvas = document.querySelector('.webgl');
 
 const loadingManager = new THREE.LoadingManager();
 const textureLoader = new THREE.TextureLoader(loadingManager);
-const grassTexture = textureLoader.load('/static/field.jpg');
-const skytexture = textureLoader.load('/static/sky.jpg'); 
-const orgblos= textureLoader.load('/static/original.jpg')
-const woodtexture=textureLoader.load('/static/wood.jpeg')
-const flower= textureLoader.load('/static/petel.jpg')
-const original= textureLoader.load('/static/alpha.jpg')
-const matcap2= textureLoader.load('/static/matcap2.jpg')
+const grassTexture = textureLoader.load('public/static/field.jpg');
+const skytexture = textureLoader.load('public/static/sky.jpg'); 
+const orgblos= textureLoader.load('public/static/original.jpg')
+const woodtexture=textureLoader.load('public/static/wood.jpeg')
+const flower= textureLoader.load('public/static/petel.jpg')
+const original= textureLoader.load('public/static/alpha.jpg')
+const matcap2= textureLoader.load('public/static/matcap2.jpg')
 
 
 
