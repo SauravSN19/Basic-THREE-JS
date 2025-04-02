@@ -7,7 +7,7 @@ import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 import gsap from 'gsap'
 const canvas = document.querySelector('.webgl');
 
-// Texture Loader
+
 const loadingManager = new THREE.LoadingManager();
 const textureLoader = new THREE.TextureLoader(loadingManager);
 const grassTexture = textureLoader.load('/static/field.jpg');

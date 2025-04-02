@@ -1,4 +1,4 @@
 import { defineConfig } from "vite";
 export  default defineConfig({
-    base:"Basic-THREE-JS",
+    base:"/Basic-THREE-JS/",
 });
